@@ -546,6 +546,7 @@ export const App = connect( mapStateToProps, mapDispatchToProps )( React.createC
 									onEmptyTrash={state.showTrash && this.onEmptyTrash} />
 							</div>
 							<NoteEditor
+								allTags={ state.tags }
 								editorMode={state.editorMode}
 								note={selectedNote}
 								revisions={state.revisions}
