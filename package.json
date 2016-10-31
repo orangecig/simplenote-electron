@@ -74,6 +74,6 @@
     "redux-localstorage": "0.4.0",
     "redux-thunk": "1.0.3",
     "serve-favicon": "2.3.0",
-    "simplenote-grammar-pegjs": "0.1.13"
+    "simplenote-grammar-pegjs": "0.1.17"
   }
 }
